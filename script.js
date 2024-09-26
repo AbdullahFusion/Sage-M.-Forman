@@ -82,3 +82,10 @@ ScrollReveal({
         backDelay: 1000, // Delay before backspacing
         loop: true // Enable looping
     });
+
+
+    window.addEventListener('load', function() {
+        document.getElementById('loading-area').style.display = 'none';
+        console.log('Loading area hidden');
+    });
+    

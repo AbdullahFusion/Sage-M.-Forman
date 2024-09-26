@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="author-section  ">
+        <div class="hero-container1">
+    <div class="">
+        <nav class="navbar navbar-expand-lg headnav">
+            <div class="container-fluid editnav header-wrapper">
+              <a class="navbar-brand headtxt text-white" href="#">SAGE M. FORMAN</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link btnhvr active mx-5 text-white" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btnhvr headata mx-5 text-white" href="#">About The Author</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btnhvr mx-5 text-white " href="book.html">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btnhvr hcontactbtn mx-5 text-white mb-2 " href="contact.html">Contact Now</a>
+                  </li>
+                 <li>
+                    <div class="frame-1 mx-5">
+                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="nav-link  buybtn  text-white" >Buy Now</a>
+
+                    </div>
+                 </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+        </div>
+    </div>
+    <!-- </section> -->
+
+    <div class="page-content bg-grey">
+        <section class="content-inner-1 border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h1 class="title">Books</h1>
+                </div>
+<!--           
+                <div class="acod-content collapse" id="collapseExample" >
+                    <div class="widget widget_services">
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox1">
+                            <label class="form-check-label" for="productCheckBox1">
+                                Architecture
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox2">
+                            <label class="form-check-label" for="productCheckBox2">
+                                Art
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox3">
+                            <label class="form-check-label" for="productCheckBox3">
+                                Action
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox4">
+                            <label class="form-check-label" for="productCheckBox4">
+                                Biography &amp; Autobiography
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox5">
+                            <label class="form-check-label" for="productCheckBox5">
+                                Body, Mind &amp; Spirit
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox6">
+                            <label class="form-check-label" for="productCheckBox6">
+                                Business &amp; Economics
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox7">
+                            <label class="form-check-label" for="productCheckBox7">
+                                Children Fiction
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox8">
+                            <label class="form-check-label" for="productCheckBox8">
+                                Children Non-Fiction
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox9">
+                            <label class="form-check-label" for="productCheckBox9">
+                                Comics &amp; Graphic Novels
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox10">
+                            <label class="form-check-label" for="productCheckBox10">
+                                Cooking
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox11">
+                            <label class="form-check-label" for="productCheckBox11">
+                                Crafts &amp; Hobbies
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox12">
+                            <label class="form-check-label" for="productCheckBox12">
+                                Design
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox13">
+                            <label class="form-check-label" for="productCheckBox13">
+                                Drama
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox14">
+                            <label class="form-check-label" for="productCheckBox14">
+                                Education
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox15">
+                            <label class="form-check-label" for="productCheckBox15">
+                                Family &amp; Relationships
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox16">
+                            <label class="form-check-label" for="productCheckBox16">
+                                Fiction
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox17">
+                            <label class="form-check-label" for="productCheckBox17">
+                                Foreign Language Study
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox18">
+                            <label class="form-check-label" for="productCheckBox18">
+                                Games
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox19">
+                            <label class="form-check-label" for="productCheckBox19">
+                                Gardening
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox20">
+                            <label class="form-check-label" for="productCheckBox20">
+                                Health &amp; Fitness
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox21">
+                            <label class="form-check-label" for="productCheckBox21">
+                                History
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox22">
+                            <label class="form-check-label" for="productCheckBox22">
+                                House &amp; Home
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox23">
+                            <label class="form-check-label" for="productCheckBox23">
+                                Humor
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox24">
+                            <label class="form-check-label" for="productCheckBox24">
+                                Literary Collections
+                            </label>
+                        </div>
+                        <div class="form-check search-content">
+                            <input class="form-check-input" type="checkbox" value="" id="productCheckBox25">
+                            <label class="form-check-label" for="productCheckBox25">
+                                Mathematics
+                            </label>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="row book-grid-row">
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/bookcover.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Somewhere Between ‘JUST FINE’ and the Emergency Room</a></h5>
+                                <!-- <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">ADVANTURE,</a></li>
+                                    <li><a href="books-grid-view.html">SCIENCE</a></li>
+                                </ul> -->
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$19.99</span>
+                                        <!-- <del>$70.00</del> -->
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i> Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1 ">
+                        <div class="dz-shop-card style-1 ">
+                            <div class="dz-media">
+                                <img src="images/book3.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Battler Drive</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">RACING,</a></li>
+                                    <li><a href="books-grid-view.html">DRAMA</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$60.09</span>
+                                        <del>$12.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i> Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book5.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Take Out Tango</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">SPORTS,</a></li>
+                                    <li><a href="books-grid-view.html">DRAMA</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$12.05</span>
+                                        <del>$54.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i> Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book12.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault4">
+                                <label class="form-check-label" for="flexCheckDefault4">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">The Missadventure</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">ADVENTURE</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$53.0</span>
+                                        <del>$44.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i> Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book8.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault5">
+                                <label class="form-check-label" for="flexCheckDefault5">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">The Adventure</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">ADVENTURE</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$89.0</span>
+                                        <del>$63.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i> Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book14.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault6">
+                                <label class="form-check-label" for="flexCheckDefault6">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">A Heavy Lift</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">HORROR,</a></li>
+                                    <li><a href="books-grid-view.html">DRAMA</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$52.0</span>
+                                        <del>$23.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book15.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault7">
+                                <label class="form-check-label" for="flexCheckDefault7">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Terrible Madness</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">SPORTS,</a></li>
+                                    <li><a href="books-grid-view.html">DRAMA</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$46.3</span>
+                                        <del>$42.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book4.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault8">
+                                <label class="form-check-label" for="flexCheckDefault8">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Such Fun Age</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">THRILLER</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$55.5</span>
+                                        <del>$36.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book9.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault9">
+                                <label class="form-check-label" for="flexCheckDefault9">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Pushing Clouds</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">DRAMA,</a></li>
+                                    <li><a href="books-grid-view.html">COMEDY</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$39.5</span>
+                                        <del>$54.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book2.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault10">
+                                <label class="form-check-label" for="flexCheckDefault10">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Homie</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">DRAMA,</a></li>
+                                    <li><a href="books-grid-view.html">COMEDY</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$25.0</span>
+                                        <del>$40.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book7.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault11">
+                                <label class="form-check-label" for="flexCheckDefault11">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">SECONDS</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">THRILLER</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$40.0</span>
+                                        <del>$32.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book13.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault12">
+                                <label class="form-check-label" for="flexCheckDefault12">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">REWORK</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">DRAMA,</a></li>
+                                    <li><a href="books-grid-view.html">BIOGRAPHY</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$60.5</span>
+                                        <del>$32.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book11.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault13">
+                                <label class="form-check-label" for="flexCheckDefault13">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">ALL GOOD NEWS</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">BIOGRAPHY</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$92.0</span>
+                                        <del>$82.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book10.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault14">
+                                <label class="form-check-label" for="flexCheckDefault14">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Emily The Back</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">DRAMA,</a></li>
+                                    <li><a href="books-grid-view.html">BIOGRAPHY</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$19.5</span>
+                                        <del>$12.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book1.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault15">
+                                <label class="form-check-label" for="flexCheckDefault15">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">Real Life</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">DRAMA,</a></li>
+                                    <li><a href="books-grid-view.html">BIOGRAPHY</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$ 66.0</span>
+                                        <del>$52.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-book style-1">
+                        <div class="dz-shop-card style-1">
+                            <div class="dz-media">
+                                <img src="images/book14.jpg" alt="book">
+                            </div>
+                            <!-- <div class="bookmark-btn style-2">
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault16">
+                                <label class="form-check-label" for="flexCheckDefault16">
+                                    <i class="flaticon-heart"></i>
+                                </label>
+                            </div> -->
+                            <div class="dz-content">
+                                <h5 class="title"><a href="books-grid-view.html">A Heavy Lift</a></h5>
+                                <ul class="dz-tags">
+                                    <li><a href="books-grid-view.html">HORROR,</a></li>
+                                    <li><a href="books-grid-view.html">DRAMA</a></li>
+                                </ul>
+                                <ul class="dz-rating">
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                    <li><i class="flaticon-star text-yellow"></i></li>
+                                </ul>
+                                <div class="book-footer">
+                                    <div class="price">
+                                        <span class="price-num">$52.0</span>
+                                        <del>$23.0</del>
+                                    </div>
+                                    <a href="https://www.amazon.com/Somewhere-Between-JUST-FINE-Emergency/dp/B0DDYH8B2V" class="btn btn-secondary box-btn btnhover btnhover2"><i
+                                            class="flaticon-shopping-cart-1 m-r10"></i>Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row page mt-0">
+					<!-- <div class="col-md-6">
+						<p class="page-text">Showing 12 from 50 data</p>
+					</div> -->
+					<div class="col-md-12">
+						<nav aria-label="Blog Pagination">
+							<ul class="pagination style-1 p-t20">
+								<!-- <li class="page-item"><a class="page-link prev" href="javascript:void(0);">Prev</a></li> -->
+								<li class="page-item"><a class="page-link active" href="javascript:void(0);">1</a></li>
+								<li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+								<li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+								<!-- <li class="page-item"><a class="page-link next" href="javascript:void(0);">Next</a></li> -->
+							</ul>
+						</nav>
+					</div>
+				</div>
+            </div>
+        </section>
+
+
+
+        <!-- Newsletter -->
+        <!-- <section class="py-5 newsletter-wrapper"
+            style="background-image: url('images/background/bg1.jpg'); background-size: cover;">
+            <div class="container">
+                <div class="subscride-inner">
+                    <div
+                        class="row style-1 justify-content-xl-between justify-content-lg-center align-items-center text-xl-start text-center">
+                        <div class="col-xl-7 col-lg-12">
+                            <div class="section-head mb-0">
+                                <h2 class="title text-white my-lg-3 mt-0">Subscribe our newsletter for newest books
+                                    updates</h2>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <form class="dzSubscribe style-1" action="script/mailchamp.php" method="post">
+                                <div class="dzSubscribeMsg"></div>
+                                <div class="form-group">
+                                    <div class="input-group mb-0">
+                                        <input name="dzEmail" required="required" type="email"
+                                            class="form-control bg-transparent text-white"
+                                            placeholder="Your Email Address">
+                                        <div class="input-group-addon">
+                                            <button name="submit" value="Submit" type="submit"
+                                                class="btn btn-primary btnhover">
+                                                <span>SUBSCRIBE</span>
+                                                <i class="fa-solid fa-paper-plane"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Newsletter End -->
+
+    </div>
+
+
+
+    <footer class="footer">
+        <h2 class="footer-author-name">Sage M. Forman</h2>
+        <div class="social-links">
+          <div class="social-links-wrapper">
+            <div class="social-link-column">
+              <a href="#" class="social-link">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b90b9c8fd3b3b98cb1beeefd8efbbbcc8dc1824ff68d98b8db74b4b682e754c6?placeholderIfAbsent=true&apiKey=00ac6ac2215e4cb69fd1a04f33822fc2" alt="Facebook" class="social-icon" />
+                <span class="social-link-text">Facebook</span>
+              </a>
+            </div>
+            <div class="social-link-column">
+              <a href="#" class="social-link">
+                <img src="images/twitter.png" alt="Twitter" class="social-icon" />
+                <span class="social-link-text">Twitter</span>
+              </a>
+            </div>
+            <div class="social-link-column">
+              <a href="#" class="social-link">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/000f6db7f40053c19d06909fb060b114abc19759f9654ec0316e20ed5654c5a6?placeholderIfAbsent=true&apiKey=00ac6ac2215e4cb69fd1a04f33822fc2" alt="Instagram" class="social-icon" />
+                <span class="social-link-text">Instagram</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+      <div class="copyright">
+        <p class="copyright-text">© 2024 Sage M. Forman. All rights reserved.</p>
+        <nav class="footer-nav">
+          <a href="#">Home</a>
+          <a href="#" class="about-the-author">About The Author</a>
+          <a href="#">Book</a>
+          <a href="#" class="contact-now">Contact Now</a>
+        </nav>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
